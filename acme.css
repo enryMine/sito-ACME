@@ -1,34 +1,106 @@
-.titolo{font-size:28px;
-  font-family:georgia; 
-  margin-left: 340px}
+.titolo{
+  font-size:28px;
+  font-family:georgia;
+}
 
-.sottotitolo {font-size:18px;
-  font-family:copperplate; margin-left: 500px}
+.sottotitolo {
+  font-size:18px;
+  font-family:copperplate;
+  margin-left:160px
+  
+}
 
-.titolone {font-family: helvetica; 
+.intestazione{
+  position: fixe ;
+  height:80px; 
+  background-color:black;
+  width:100%; 
+  color:red; 
+  border-bottom:2px solid red;
+  opacity:90%
+}
+
+.cerchio{
+  border:1px solid orange;
+  width:100px; 
+  height:100px; 
+  background-color:black;
+  border-radius: 100%;
+  margin-left:160px
+}
+
+.titolone {
+  font-family: helvetica; 
   font-size: 30px; 
-  text-align: center}
+  text-align: center
+}
 
-.paragrafo {font-family: helvetica;
+.paragrafo {
+  font-family: helvetica;
   text-align: center; 
   font-size:14pt; 
-  font-style:italic }
+  font-style:italic 
+}
 
-#immagine {
-  max-width: 50px;
-  margin: 6px;}
+.box{
+  border:2px solid white; 
+  background-color:black;
+  color:white; 
+  padding: 20px;
+  border-radius: 20px;
+  margin: 50px;
+  opacity:90%;
+}
+
+.scritta{
+  margin:50px;
+  color: white;
+  text-align: center;
+  font-type: Helvetica; 
+}
+
+.descrizione{
+  font-family: helvetica; 
+  font-size: 30px; 
+  text-align: center;
+  color:red
+}
   
  .sfondo{
   margin: 0px;
   background-image: url("https://www.analisidellopera.it/wp-content/uploads/2018/05/Raffaello_Scuola_di_Atene-1-1547x1200.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100%;}
+  background-size: 100%;
+}
 
-.info {
+#freccina{
+  text-shadow: 0px 0px 10px hsl(0, 130%, 68%);
+}
+
+.top {
+  color: white;
+  background-color: none;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  text-align: center;
+}
+
+.bandiere{
+  height:30px
+}
+
+footer{
   background-color: black;
   color: white;
   width: 100%;
   margin-top: 30px;
+  opacity:80%;
+  text-align: center;
+  font-size: 12px;
 }
-
+.simboli{
+  font-size: 50px;
+  margin:23px;
+}
