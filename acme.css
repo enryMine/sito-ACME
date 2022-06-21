@@ -6,9 +6,8 @@
 .sottotitolo {
   font-size:18px;
   font-family:copperplate;
-  margin-left:160px
-  
-}
+  margin-left:160px;
+ }
 
 .intestazione{
   position: fixe ;
@@ -17,7 +16,7 @@
   width:100%; 
   color:red; 
   border-bottom:2px solid red;
-  opacity:90%
+  opacity:90%;
 }
 
 .cerchio{
@@ -31,14 +30,14 @@
 .titolone {
   font-family: helvetica; 
   font-size: 30px; 
-  text-align: center
+  text-align: center;
 }
 
 .paragrafo {
   font-family: helvetica;
   text-align: center; 
   font-size:14pt; 
-  font-style:italic 
+  font-style:italic;
 }
 
 .box{
@@ -47,7 +46,7 @@
   color:white; 
   padding: 20px;
   border-radius: 20px;
-  margin: 50px;
+  margin-top: 50px auto;
   opacity:90%;
 }
 
@@ -70,11 +69,12 @@
   background-image: url("immagini/sfondo.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 110%;
+  background-size: 100%;
 }
 
 #freccina{
   text-shadow: 0px 0px 10px hsl(0, 130%, 68%);
+  cursor: pointer;
 }
 
 .top {
@@ -151,6 +151,7 @@ footer{
   border: 2px solid green;
   border-radius: 0px 20px;
 }
+
 .patrimonio{
     font-family: helvetica;
   text-align: center; 
@@ -166,7 +167,9 @@ footer{
   left: 10px;
   width: 100px;
   border-radius: 30px;
+  cursor: pointer;
 }
+
 #cookie{
   color: white;
   font-size:10px;
@@ -176,6 +179,7 @@ footer{
   padding: 15px;
   display:none;
 }
+
 #chiusura{
   font-size: 15px;
   margin-left: 5px;
