@@ -68,7 +68,7 @@
   
  .sfondo{
   margin: 0px;
-  background-image: url("immagini/Raffaello_Scuola_di_Atene-1-1547x1200.jpg");
+  background-image: url("immagini/sfondo.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -79,10 +79,12 @@
 }
 
 .top {
-  color: white;
-  background-color: none;
+  color: red;
+  background-color: black;
+  border-radius: 40px;
+  pudding:0px 0px 5px 5px;
   position: fixed;
-  bottom: 20px;
+  bottom: 30px;
   right: 40px;
   text-align: center;
 }
@@ -100,10 +102,12 @@ footer{
   text-align: center;
   font-size: 12px;
 }
+
 .simboli{
   font-size: 50px;
   margin:23px;
 }
+
 .pittura{
     font-family: helvetica;
   text-align: center; 
@@ -112,6 +116,7 @@ footer{
   border: 2px solid blue;
   border-radius: 20px 0px;
 }
+
 .grafica{
     font-family: helvetica;
   text-align: center; 
@@ -120,6 +125,7 @@ footer{
   border: 2px solid orange;
   border-radius: 0px 20px;
 }
+
 .scenografia{
     font-family: helvetica;
   text-align: center; 
@@ -128,6 +134,7 @@ footer{
   border: 2px solid yellow;
   border-radius: 20px 0px;
 }
+
 .impresa{
     font-family: helvetica;
   text-align: center; 
@@ -136,6 +143,7 @@ footer{
   border: 2px solid purple;
   border-radius: 20px;
 }
+
 .tecnologie{
     font-family: helvetica;
   text-align: center; 
@@ -152,6 +160,7 @@ footer{
   border: 2px solid pink;
   border-radius: 20px;
 }
+
 #bottonecookie {
   position: fixed;
   bottom: 20px;
