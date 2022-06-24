@@ -10,7 +10,7 @@
  }
 
 .intestazione{
-  position: fixe ;
+  position: sticky;
   height:85px; 
   background-color:black;
   width:100%; 
@@ -25,6 +25,7 @@
   height:100px; 
   background-color:black;
   border-radius: 100%;
+
 }
 
 .titolone {
@@ -35,10 +36,24 @@
 
 .paragrafo {
   font-family: helvetica;
-  text-align: center; 
   font-size:14pt; 
   font-style:italic;
 }
+
+.paragrafo2{
+    font-family: helvetica;
+  font-size:14pt; 
+  font-style:italic;
+  text-align: center;
+}
+
+.info {
+  font-family: helvetica; 
+  font-size: 20px;
+  text-align:center;
+}
+
+
 
 .box{
   border:2px solid white; 
@@ -151,7 +166,6 @@ footer{
   border: 2px solid green;
   border-radius: 0px 20px;
 }
-
 .patrimonio{
     font-family: helvetica;
   text-align: center; 
@@ -169,7 +183,6 @@ footer{
   border-radius: 30px;
   cursor: pointer;
 }
-
 #cookie{
   color: white;
   font-size:10px;
@@ -179,7 +192,6 @@ footer{
   padding: 15px;
   display:none;
 }
-
 #chiusura{
   font-size: 15px;
   margin-left: 5px;
